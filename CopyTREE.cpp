@@ -18,7 +18,7 @@ typedef struct BiTNode{
 int leaf_count = 0;
 
 Status InitBiTree(BiTree &T);
-Status CreateBiTree(BiTree &T);
+Status CreateBiTree(BiTree &T);//
 void ClearBiTree(BiTree &T);
 bool BiTreeEmpty(BiTree T);
 int BiTreeDepth(BiTree T);
